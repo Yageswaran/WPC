@@ -1,0 +1,32 @@
+<!doctype html>
+<html data-ng-app="myApp" data-ng-csp="">
+<head>
+<meta charset="UTF-8">
+<title>OTW</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<div class="container">
+<div ng-controller="MainController">
+
+    
+    
+<div id="datetime">
+<h1>{{ date.raw | date:'hh mm ss' }}</h1>
+<h2>{{ date.raw | date:'EEEE, MMMM yyyy' }}</h2>
+<h3>OTW in Action!</h3>
+</div>
+    
+</div>
+</div>
+<script src="./js/vendor/angular.min.js"></script>
+<script src="./js/vendor/angular-route.min.js"></script>
+<script src="./js/app.js"></script>
+   <center> <iframe src="http://free.timeanddate.com/clock/i4iixsn0/n122/szw110/szh110/hoc000/hbw2/hfceee/cf100/hncccc/fdi76/mqc000/mql10/mqw4/mqd98/mhc000/mhl10/mhw4/mhd98/mmc000/mml10/mmw1/mmd98" frameborder="0" width="150" height="116"></iframe></center>
+        
+       
+
+    
+</body>
+</html>
